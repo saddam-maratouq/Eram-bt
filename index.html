@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> startup code </title>
+    <title> Erams </title>
 
-    <link rel="icon" type="image/png" href="./img/web-logo.png" sizes="52x52" />
+
+    <link rel="icon" type="image/png" href="./img/logo/web-log" sizes="52x52" />
 
     <!-- bootstrap cdn  5.3.1  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
@@ -32,11 +33,77 @@
 <body>
     
     
-<h1>  hello </h1>
-<div>
-   <p> seee </p>
-</div>
-  
+  <nav class="navbar navbar-expand-lg navbar-light  shadow  position-relative ">
+    <div class="container  ">
+      <a class="navbar-brand  fs-2 " href="#">Erams</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse   " id="navbarNav">
+        <ul class="navbar-nav  ms-auto ">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Articles </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Gallery </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Other Link 
+            </a>
+          
+              <ul class="dropdown-menu  row  " aria-labelledby="navbarDropdown">
+               
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+              </ul>
+
+          </li>
+          
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Landing  -->
+
+  <section class="Landing   ">
+    <div class=" container ">
+
+      <div  class="land-text   text-center text-xl-start mx-auto mx-lg-0   " >
+        <h1> welcome to eram world   </h1>
+        <p>
+          Here Iam gonna share everything about my life. Books I'm reading, <br> I'm Playing Games, Stories and Events
+        </p>
+      </div> 
+
+      <div class="land-img  d-none d-lg-block  " >  
+        <img src="./img/landing-image.png" alt="">
+      </div>
+    </div> 
+
+    <div  class="text-center" >
+      <a href="#articles"  class="d-double-arrow" > 
+        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+
+
+<!-- End Landing  -->
 
     <!-- main bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
