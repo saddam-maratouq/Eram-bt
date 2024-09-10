@@ -1,0 +1,203 @@
+
+.featchers {
+   
+    /* background-color: white; */
+   
+}
+
+
+.featchers-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 30px ;
+    
+}
+
+
+.featchers-box  .feat-box {
+    border:  1px solid #ccc;
+    
+}
+
+.featchers-box  .feat-box .img-holder {
+ position: relative;
+ overflow: hidden;
+ transition: 1s 0.5s linear ; 
+}
+
+
+
+.featchers-box  .feat-box .img-holder::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(255 0 0 / 35%); */
+}
+
+
+.featchers-box  .feat-box .quailty::before {
+    background-color: rgb(255 0 0 / 35%);
+
+}
+
+
+
+.featchers-box  .feat-box .time::before {
+    
+    background-color: rgb(8 94 8 / 35%);
+
+}
+
+
+.featchers-box  .feat-box .passion::before {
+    background-color: rgb(46 135 170 / 35%);
+}
+
+
+
+.featchers-box  .feat-box .img-holder::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 0px 170px 600px;
+    /* you can make color transparent ...  */
+    border-color: red blue white transparent;
+    bottom: 0;
+    right: 0;
+    /* left: 0; */
+   
+}
+
+
+.featchers-box  .feat-box .img-holder::hover::after {
+   
+  background-color: red;
+
+}
+
+
+/* when hover style  */
+/* 
+content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 232px 800px 0px 0px;
+    border-color: red blue gray green;
+    bottom: 0;
+    left: 0; */
+
+
+
+
+.featchers-box  .feat-box .img-holder img {
+    max-width: 100%;
+}
+
+
+.fetchers-info {
+    padding: 35px 20px;
+}
+
+.fetchers-info h2 {
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    margin:  auto ;
+    padding: 15px 10px;
+}
+
+.feat-quailty  h2:after   {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 6px;
+    background-color: rgb(255 0 0);
+}
+
+
+.feat-time h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 6px;
+    background-color: rgb(8 94 8 );
+}
+
+
+
+.feat-Passion h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 6px;
+    background-color: rgb(46 135 170 );
+}
+
+
+.fetchers-info p {
+    margin: 20px 0;
+    line-height: 2 ;
+    font-size: 20px ;
+    color:  var(--ph-color);
+    margin: 30px 0 ;
+    margin: 30px 0;
+    margin-bottom: 50px;
+}
+
+
+.fetchers-info a {
+    padding: 10px 30px ;
+    border: 2px solid  red ;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s 0.5s linear ;
+}
+
+
+.feat-quailty a  {
+    color:  red;
+    border: 2px solid red;
+}
+
+.feat-quailty a:hover {
+    color: white ;
+    background-color: red;
+} 
+
+
+.feat-time a {
+    color: green;
+    border: 2px solid  green;
+}
+
+
+.feat-time a:hover {
+    color: white;
+    background-color: green;
+}
+
+
+
+.feat-Passion a {
+    color: var(--main-color) ;
+    border: 2px solid  var(--main-color);
+}
+
+.feat-Passion a:hover {
+    color: white;
+    background-color: var(--main-color);
+   
+}
