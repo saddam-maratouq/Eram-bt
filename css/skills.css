@@ -1,0 +1,65 @@
+
+
+
+
+
+.skills-title p {
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+}
+
+.skills-title span {
+    padding: 10px;
+    border: 1px solid var(--bg-section);
+    color: var(--main-color);
+}
+
+
+
+.skills-degree {
+    position: relative;
+    background-color: #EEEEEE;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.skills-degree::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: var(--main-color);
+    transition: 1.3s 1s  ease-in-out;
+}
+
+
+.skills-degree.html::after {
+    width: 80%;
+}
+
+
+
+.skills-degree.css::after {
+    width: 85%;
+}
+
+
+
+
+.skills-degree.js::after {
+    width: 70%;
+}
+
+.skills-degree.payton::after {
+    width: 90%;
+}
+
+
+
+/* .skills-degree:hover::after {
+    width: 80%;
+    background-color: var(--main-color);
+} */
