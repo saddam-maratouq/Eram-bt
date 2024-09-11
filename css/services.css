@@ -1,0 +1,78 @@
+
+
+
+.services {
+    background-color: var(--bg-section);
+}
+
+.services-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 40px;
+
+}
+
+.services-boxes .service-box {
+    background-color: white;
+    transition: 1s 0.5s ease-in;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.services-boxes .service-box:hover {
+    border-top: 8px solid var(--main-color);
+}
+
+
+
+.services-boxes .service-box i  {
+    color: #D5D5D5;
+    margin: 20px 0 30px;
+}
+
+
+.services-boxes .service-box  h3  {
+    color: var(--main-color);
+    font-weight: 700;
+    margin: 10px 0px 40px;
+}
+
+
+.services-boxes .service-box  .deatiles {
+    background-color: #F9F9F9;;
+}
+
+.services-boxes .service-box  .deatiles p {
+    font-size: 30px;
+    background: var(--main-color);
+    margin: 0 ;
+    padding: 10px 90px 10px 30px;
+    position: relative;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+}
+
+
+.services-boxes .service-box  .deatiles p::before {
+    content: "";
+    position: absolute;
+    background-color: #D5D5D5;
+    width: 50%;
+    height: 100%;
+    right: -43px;
+    top: 0;
+    transform: skewX(-26deg);
+}
+
+
+.services-boxes .service-box  .deatiles a {
+    display: block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
