@@ -1,0 +1,58 @@
+
+
+.testmonial {
+    position: relative;
+    background-color: var(--bg-section);
+}
+
+
+.testmonials-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 40px;
+
+}
+
+.test-box {
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    border-radius: 6px;
+    
+}
+
+.test-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    right: 0;
+    border: 10px solid var(--bg-section);
+}
+
+.test-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.test-box .rate .star-fill {
+    color: #ffc107;;
+}
+
+
+.test-box span  {
+    display: inline-block;
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.test-box p {
+    color: #777;
+    font-size: 18px;
+    margin: 10px 0 0;
+    line-height: 1.6;
+}

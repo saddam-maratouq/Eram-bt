@@ -22,7 +22,7 @@
 .featchers-box  .feat-box .img-holder {
  position: relative;
  overflow: hidden;
- transition: 1s 0.5s linear ; 
+ 
 }
 
 
@@ -30,9 +30,14 @@
 .featchers-box  .feat-box .img-holder::before {
     content: "";
     position: absolute;
+    left:0;
+    top: 0;
     width: 100%;
     height: 100%;
-    /* background-color: rgb(255 0 0 / 35%); */
+
+    /* to hide overlay border  */
+   
+  
 }
 
 
@@ -66,14 +71,17 @@
     bottom: 0;
     right: 0;
     /* left: 0; */
+    /* transition: 1s 5s linear ;  */
    
 }
 
 
-.featchers-box  .feat-box .img-holder::hover::after {
+.featchers-box  .feat-box .img-holder:hover::after {
    
-  background-color: red;
-
+    border-width: 0px 170px 0px 0px;
+    border-color: transparent white gray green;
+    bottom: 0;
+    left: 0; 
 }
 
 
