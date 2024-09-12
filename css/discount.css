@@ -1,0 +1,129 @@
+
+
+
+.discount {
+    min-height: 100vdh;
+}
+
+
+.discount-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.discount-descrption {
+    flex-basis: 50% ;
+    position: relative;
+    background-image: url(../img/discount-background1.jpg);
+    background-size: cover;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+
+
+.discount-descrption::before {
+    content:  "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0 ;
+    top: 0;
+    background-color: rgb(23 135 224 / 97%);;
+    z-index: -1;
+}
+
+
+.discount-descrption h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+}
+
+.discount-descrption p {
+    line-height: 1.6;
+    font-size: 18px;
+    max-width: 500px;
+    
+}
+
+.discount-descrption img {
+    width: 300px;
+    max-width: 100%;
+}
+
+
+
+
+.discount-form {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.discount-form h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    letter-spacing: -2px;
+}
+
+
+.discount-form .input {
+    display: block;
+    margin-bottom: 40px;
+    border: none;
+    background: #eee;
+    padding: 10px;
+    /* border-radius: 10px;    */
+    border-bottom: 1px solid #ccc;
+    caret-color: var(--main-color);
+}
+
+.discount-form textarea {
+    resize: none;
+    width: 100%;
+}
+
+
+.discount-form [type="submit"] {
+    width: 100%;
+    padding: 15px 10px ;
+    color: white;
+    text-align: center;
+    background-color: var(--main-color);
+    border: none;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+/* query general  */
+
+@media (max-width : 576px)   {
+
+    .discount-descrption ,
+    .discount-form {
+        flex-basis: 100%;
+    }
+
+    .discount-content {
+       gap: 50px;
+    }
+    
+}
