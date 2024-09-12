@@ -12,8 +12,6 @@
     --standred-mobile-grid :   repeat(auto-fill, minmax(200px, 1fr));
      /*  */
    
-      
-        
     
 }
 
@@ -139,6 +137,14 @@ a {
 
 /* nav  */
 
+
+.navbar .container {
+    position: relative;
+}
+
+
+
+
 .navbar-brand {
     color: #2195F1 !important;
 }
@@ -200,6 +206,35 @@ a {
 }
 
 /* hero menu  */
+
+
+/* .dropdown-menu {
+    position: absolute !important;
+     top: 0 !important; 
+    top: -10ppx !important;
+    left: -966px !important;
+    width: 100%;
+     background-color: white; 
+     z-index: 10; 
+} */ 
+
+
+.drop-mega-menue {
+    position: absolute !important;
+    top: 81px !important;
+    left: -1143px !important;
+    width: 1300px;
+    height: 600px;
+    z-index: 10;
+    padding: 30px 40px;
+}
+
+
+.nav-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   
 

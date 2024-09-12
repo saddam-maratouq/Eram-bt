@@ -46,6 +46,9 @@
     <link rel="stylesheet" href="./css/pricing.css">
 
 
+    <link rel="stylesheet" href="./css/statsu.css">
+    
+
 
 
 
@@ -70,7 +73,8 @@
   <nav class="navbar navbar-expand-lg navbar-light  shadow  position-relative ">
     <div class="container  ">
       <a class="navbar-brand  fs-2 " href="#">Erams</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse   " id="navbarNav">
@@ -79,6 +83,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#articles"> Articles </a>
           </li>
+
 
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#gallery"> Gallery </a>
@@ -93,18 +98,30 @@
               Other Link 
             </a>
           
-              <ul class="dropdown-menu  row  " aria-labelledby="navbarDropdown">
-               
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-              </ul>
 
-          </li>
-          
+            <div  
+             class="drop-mega-menue  dropdown-menu  row  justify-content-between align-items-center 
+                 "  
+               aria-labelledby="navbarDropdown" > 
+            
+              <div  class="nav-hero" >
+                <div class="col-lg-6">
+                  <img  class=" img-fluid "  src="./img/megamenu.png" alt="">
+                </div>
+ 
+                  <ul class="row  col-lg-4  " >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                  </ul>
+             
+                 </li> 
+              </div>
+
+            </div>
 
         </ul>
       </div>
@@ -913,6 +930,8 @@
     </section>
     <!--  -->
 
+
+    <!-- price  -->
     <section class="section price" id="price">
       <div class="container">
         <div class="main-title">
@@ -1061,6 +1080,58 @@
       </div> 
 
     </section>
+    <!-- end  price -->
+
+    <!-- video ...  -->
+
+     <!--  --> 
+
+     <!-- Status  -->
+
+     <section class="status" id="status">
+      <div class="container  text-center ">
+        <h2  class="text-white" > Our Awesome Stats </h2>
+
+          <div class="statues-holder">
+
+            <!-- col 1  -->
+            <div class="stat-box">
+              <i class="far fa-user fa-2x fa-fw" >  </i> 
+              <p> 150  </p>
+              <em> Client </em>
+            </div>
+
+
+              <!-- col 2  -->
+              <div class="stat-box">
+                <i  class="fas fa-code fa-2x fa-fw"" >  </i> 
+                <p> 135  </p>
+                <em> Projects  </em>
+              </div>
+
+             <!-- col 3  -->
+            <div class="stat-box">
+              <i class="fas fa-globe-asia fa-2x fa-fw" >  </i> 
+              <p> 50  </p>
+              <em> Countries </em>
+            </div> 
+
+            <!-- col 4  -->
+              <div class="stat-box">
+                <i  class="far fa-money-bill-alt fa-2x fa-fw" >  </i> 
+                <p> 150  </p>
+                <em> Money </em>
+              </div>
+
+          </div>
+
+
+
+      </div>
+     </section>
+
+     <!-- End Status  -->
+
 
 
     <!-- main bootstrap js  -->
