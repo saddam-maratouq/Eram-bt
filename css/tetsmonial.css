@@ -13,6 +13,16 @@
 
 }
 
+/* mobile  */
+@media (max-width:567px) {
+    .testmonials-boxes  {
+      grid-template-columns: var(--standred-mobile-grid ) ;
+    }  
+    
+}
+
+
+
 .test-box {
     padding: 20px;
     position: relative;

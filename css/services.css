@@ -12,6 +12,15 @@
 
 }
 
+
+@media (max-width:567px) {
+      .services-boxes {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }  
+}
+
+
+
 .services-boxes .service-box {
     background-color: white;
     transition: 1s 0.5s ease-in;
