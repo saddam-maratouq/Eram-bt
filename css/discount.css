@@ -45,7 +45,7 @@
 .discount-descrption h2 {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     letter-spacing: -2px;
 }
 
@@ -59,6 +59,8 @@
 .discount-descrption img {
     width: 300px;
     max-width: 100%;
+    /* animation:  change-bg  10s linear infinite ; */
+    
 }
 
 
@@ -76,7 +78,7 @@
 .discount-form h2 {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     letter-spacing: -2px;
 }
 
@@ -95,6 +97,7 @@
 .discount-form textarea {
     resize: none;
     width: 100%;
+     height: 90px;
 }
 
 
@@ -108,8 +111,13 @@
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 18px;
+    transition: var( --main-transtion);
 }
 
+
+.discount-form [type="submit"]:hover  {
+    background-color: var(--main-color-hover);
+}
 
 
 
@@ -126,4 +134,21 @@
        gap: 50px;
     }
     
+}
+
+
+
+/* Animation  */
+
+
+@keyframes change-bg {
+    0% , 100% {
+        background-image: url(../img/discount-background2.jpg);
+    }
+    
+    50% {
+        
+        background-image: url(../img/discount-background1.jpg);
+
+    }
 }
