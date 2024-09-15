@@ -1,0 +1,170 @@
+
+
+footer {
+    background-color: #1A1A1A;
+}
+
+
+
+
+/* @media (max-width : 991px) {
+    
+    .row {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }    
+}
+ */
+
+
+
+.f-first-col h1 {
+    color: white;
+}
+
+
+
+
+.social {
+        background-color: #2F2E31;
+        width: 20px ;
+        height: 20px;
+        border-radius: 10px;
+        padding: 30px ;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 10px;
+}
+
+.social  i {
+    color: gray;
+    font-size: 30px;
+    /* display: block; */
+    transition: var(--main-transtion);
+    display: block;
+}
+
+.social:hover i   {
+    color: var(--main-color);
+}
+
+
+
+
+
+/* col 2 */
+
+.foter-links {
+    padding: 0;
+}
+
+.foter-links li {
+    padding: 10px;
+}
+
+
+.foter-links li:not(:last-child) {
+    border-bottom: 1px solid  #8080805c;
+}
+
+
+.foter-links li  a  {
+    position: relative;
+    color: var( --ph-color);
+}
+
+
+.foter-links li  a::before  {
+    content: " \f101";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    color: var(--main-color);
+    margin-right: 7px;
+}
+
+
+/*  */
+
+
+
+
+
+/* col 3 */
+
+.footer-contact {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width : 567px) {
+        .footer-contact  {
+            justify-content: center !important;
+        }
+}
+
+
+
+
+.footer-contact i {
+    color: var(--main-color);
+    /* margin-right: 5px; */
+    font-size: 25px;
+}
+
+
+.location {
+    margin-left: 15px;
+}
+
+
+.location span {
+    display: block;
+    color: var( --ph-color);
+    line-height: 1.8;
+}
+
+
+
+
+
+/*  */
+
+
+
+/* col 4  */
+
+
+.f-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+   justify-content: center;
+}
+
+
+.f-gallery  img  {
+    width: 80px;
+    max-width: 100%;
+    border: 2px solid white;
+    ;
+}
+
+
+
+/* copy  */
+
+.copy-write {
+    padding: 10px 0 ;
+    color: white;
+    text-align: center;
+    background-color: #2F2E31;
+}
+
+.copy-write p {
+    font-size: 20px;
+    margin: 0;
+}
